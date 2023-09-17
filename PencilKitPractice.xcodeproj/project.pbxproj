@@ -14,6 +14,8 @@
 		938237122AAD93620080093C /* BasicDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938237112AAD93620080093C /* BasicDemo.swift */; };
 		93946BE02AADB71200DC301E /* PencilKitCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93946BDF2AADB71200DC301E /* PencilKitCanvas.swift */; };
 		93946BE22AADC76500DC301E /* PKStroke+calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93946BE12AADC76500DC301E /* PKStroke+calculation.swift */; };
+		93B9E3252AB0A17300FA1D42 /* CustomToolPickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9E3242AB0A17300FA1D42 /* CustomToolPickerDemo.swift */; };
+		93B9E3272AB0A22900FA1D42 /* CustomToolPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9E3262AB0A22900FA1D42 /* CustomToolPickerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		938237112AAD93620080093C /* BasicDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDemo.swift; sourceTree = "<group>"; };
 		93946BDF2AADB71200DC301E /* PencilKitCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitCanvas.swift; sourceTree = "<group>"; };
 		93946BE12AADC76500DC301E /* PKStroke+calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PKStroke+calculation.swift"; sourceTree = "<group>"; };
+		93B9E3242AB0A17300FA1D42 /* CustomToolPickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolPickerDemo.swift; sourceTree = "<group>"; };
+		93B9E3262AB0A22900FA1D42 /* CustomToolPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolPickerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,17 +83,10 @@
 		9382370D2AAD930E0080093C /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				9382370E2AAD931F0080093C /* Basic Demo */,
+				93B9E3232AB0A16300FA1D42 /* Basic */,
+				93B9E3222AB0A12C00FA1D42 /* CustomToolPicker & Undo */,
 			);
 			path = Demos;
-			sourceTree = "<group>";
-		};
-		9382370E2AAD931F0080093C /* Basic Demo */ = {
-			isa = PBXGroup;
-			children = (
-				938237112AAD93620080093C /* BasicDemo.swift */,
-			);
-			path = "Basic Demo";
 			sourceTree = "<group>";
 		};
 		9382370F2AAD93320080093C /* Extensions */ = {
@@ -106,6 +103,23 @@
 				93946BDF2AADB71200DC301E /* PencilKitCanvas.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		93B9E3222AB0A12C00FA1D42 /* CustomToolPicker & Undo */ = {
+			isa = PBXGroup;
+			children = (
+				93B9E3242AB0A17300FA1D42 /* CustomToolPickerDemo.swift */,
+				93B9E3262AB0A22900FA1D42 /* CustomToolPickerViewModel.swift */,
+			);
+			path = "CustomToolPicker & Undo";
+			sourceTree = "<group>";
+		};
+		93B9E3232AB0A16300FA1D42 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				938237112AAD93620080093C /* BasicDemo.swift */,
+			);
+			path = Basic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,8 +195,10 @@
 				938237022AAD80820080093C /* ContentView.swift in Sources */,
 				938237122AAD93620080093C /* BasicDemo.swift in Sources */,
 				938237002AAD80820080093C /* PencilKitPracticeApp.swift in Sources */,
+				93B9E3272AB0A22900FA1D42 /* CustomToolPickerViewModel.swift in Sources */,
 				93946BE02AADB71200DC301E /* PencilKitCanvas.swift in Sources */,
 				93946BE22AADC76500DC301E /* PKStroke+calculation.swift in Sources */,
+				93B9E3252AB0A17300FA1D42 /* CustomToolPickerDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,10 @@ struct ContentView: View {
                 NavigationLink("Basic") {
                     BasicDemo()
                 }
+                Spacer()
+                NavigationLink("Custom Tool Picker") {
+                    CustomToolPickerDemo()
+                }
             }
             .padding(50)
         }
