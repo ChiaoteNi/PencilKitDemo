@@ -20,12 +20,16 @@ struct ContentView: View {
                     CustomToolPickerDemo()
                 }
                 Spacer()
+                NavigationLink("Stroke Data Model") {
+                    StrokeSavingDemo()
+                }
+                Spacer()
                 NavigationLink("CGPath to Stroke") {
                     PathToStrokesDemo()
                 }
                 Spacer()
-                NavigationLink("Stroke Data Model") {
-                    StrokeSavingDemo()
+                NavigationLink("MultipleLayer") {
+                    MultipleLayersDemo()
                 }
             }
             .padding(50)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9337C3AA2AC0BF9E001375FF /* MultipleLayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9337C3A92AC0BF9E001375FF /* MultipleLayersViewModel.swift */; };
 		938237002AAD80820080093C /* PencilKitPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938236FF2AAD80820080093C /* PencilKitPracticeApp.swift */; };
 		938237022AAD80820080093C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938237012AAD80820080093C /* ContentView.swift */; };
 		938237042AAD80830080093C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938237032AAD80830080093C /* Assets.xcassets */; };
@@ -25,9 +26,11 @@
 		93FC2AD82AB8AA0800B6C698 /* PathToStrokesStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AD72AB8AA0800B6C698 /* PathToStrokesStateStore.swift */; };
 		93FC2ADA2AB8AA6000B6C698 /* StrokeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AD92AB8AA6000B6C698 /* StrokeStore.swift */; };
 		93FC2ADC2AB8AF9400B6C698 /* CGPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2ADB2AB8AF9400B6C698 /* CGPathGenerator.swift */; };
+		93FC2ADE2AB8B80300B6C698 /* MultipleLayersDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2ADD2AB8B80300B6C698 /* MultipleLayersDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9337C3A92AC0BF9E001375FF /* MultipleLayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleLayersViewModel.swift; sourceTree = "<group>"; };
 		938236FC2AAD80820080093C /* PencilKitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilKitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938236FF2AAD80820080093C /* PencilKitPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitPracticeApp.swift; sourceTree = "<group>"; };
 		938237012AAD80820080093C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		93FC2AD72AB8AA0800B6C698 /* PathToStrokesStateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathToStrokesStateStore.swift; sourceTree = "<group>"; };
 		93FC2AD92AB8AA6000B6C698 /* StrokeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStore.swift; sourceTree = "<group>"; };
 		93FC2ADB2AB8AF9400B6C698 /* CGPathGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPathGenerator.swift; sourceTree = "<group>"; };
+		93FC2ADD2AB8B80300B6C698 /* MultipleLayersDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleLayersDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9311AAC72AB59A8900986EDD /* MultipleLayer */ = {
+			isa = PBXGroup;
+			children = (
+				93FC2ADD2AB8B80300B6C698 /* MultipleLayersDemo.swift */,
+				9337C3A92AC0BF9E001375FF /* MultipleLayersViewModel.swift */,
+			);
+			path = MultipleLayer;
+			sourceTree = "<group>";
+		};
 		9311AAC82AB59AC300986EDD /* DataStructure & Data stoage */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +130,7 @@
 				93B9E3222AB0A12C00FA1D42 /* CustomToolPicker & Undo */,
 				9311AAC82AB59AC300986EDD /* DataStructure & Data stoage */,
 				93FC2AD22AB8A91B00B6C698 /* Path to Strokes */,
+				9311AAC72AB59A8900986EDD /* MultipleLayer */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -242,10 +256,12 @@
 				93FC2ADC2AB8AF9400B6C698 /* CGPathGenerator.swift in Sources */,
 				93B9E3272AB0A22900FA1D42 /* CustomToolPickerViewModel.swift in Sources */,
 				93FC2AD82AB8AA0800B6C698 /* PathToStrokesStateStore.swift in Sources */,
+				9337C3AA2AC0BF9E001375FF /* MultipleLayersViewModel.swift in Sources */,
 				93D5096C2AB6CBC600345FDD /* StrokeSavingDemo.swift in Sources */,
 				93D509722AB6FF1E00345FDD /* PKStroke + Codable.swift in Sources */,
 				93946BE02AADB71200DC301E /* PencilKitCanvas.swift in Sources */,
 				93946BE22AADC76500DC301E /* PKStroke+calculation.swift in Sources */,
+				93FC2ADE2AB8B80300B6C698 /* MultipleLayersDemo.swift in Sources */,
 				93D509702AB6CCC200345FDD /* StrokeSavingDemoStore.swift in Sources */,
 				93FC2AD62AB8A9C700B6C698 /* PathToStrokesInteractor.swift in Sources */,
 				93FC2AD42AB8A93B00B6C698 /* PathToStrokesDemo.swift in Sources */,
