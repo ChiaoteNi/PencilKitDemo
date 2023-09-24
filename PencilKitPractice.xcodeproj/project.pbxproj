@@ -16,6 +16,11 @@
 		93946BE22AADC76500DC301E /* PKStroke+calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93946BE12AADC76500DC301E /* PKStroke+calculation.swift */; };
 		93B9E3252AB0A17300FA1D42 /* CustomToolPickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9E3242AB0A17300FA1D42 /* CustomToolPickerDemo.swift */; };
 		93B9E3272AB0A22900FA1D42 /* CustomToolPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9E3262AB0A22900FA1D42 /* CustomToolPickerViewModel.swift */; };
+		93D5096C2AB6CBC600345FDD /* StrokeSavingDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5096B2AB6CBC600345FDD /* StrokeSavingDemo.swift */; };
+		93D5096E2AB6CCB800345FDD /* StrokeSavingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5096D2AB6CCB800345FDD /* StrokeSavingInteractor.swift */; };
+		93D509702AB6CCC200345FDD /* StrokeSavingDemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5096F2AB6CCC200345FDD /* StrokeSavingDemoStore.swift */; };
+		93D509722AB6FF1E00345FDD /* PKStroke + Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D509712AB6FF1E00345FDD /* PKStroke + Codable.swift */; };
+		93FC2ADA2AB8AA6000B6C698 /* StrokeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AD92AB8AA6000B6C698 /* StrokeStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		93946BE12AADC76500DC301E /* PKStroke+calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PKStroke+calculation.swift"; sourceTree = "<group>"; };
 		93B9E3242AB0A17300FA1D42 /* CustomToolPickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolPickerDemo.swift; sourceTree = "<group>"; };
 		93B9E3262AB0A22900FA1D42 /* CustomToolPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolPickerViewModel.swift; sourceTree = "<group>"; };
+		93D5096B2AB6CBC600345FDD /* StrokeSavingDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSavingDemo.swift; sourceTree = "<group>"; };
+		93D5096D2AB6CCB800345FDD /* StrokeSavingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSavingInteractor.swift; sourceTree = "<group>"; };
+		93D5096F2AB6CCC200345FDD /* StrokeSavingDemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSavingDemoStore.swift; sourceTree = "<group>"; };
+		93D509712AB6FF1E00345FDD /* PKStroke + Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PKStroke + Codable.swift"; sourceTree = "<group>"; };
+		93FC2AD92AB8AA6000B6C698 /* StrokeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9311AAC82AB59AC300986EDD /* DataStructure & Data stoage */ = {
+			isa = PBXGroup;
+			children = (
+				93D5096B2AB6CBC600345FDD /* StrokeSavingDemo.swift */,
+				93D5096D2AB6CCB800345FDD /* StrokeSavingInteractor.swift */,
+				93D5096F2AB6CCC200345FDD /* StrokeSavingDemoStore.swift */,
+				93FC2AD92AB8AA6000B6C698 /* StrokeStore.swift */,
+				93D509712AB6FF1E00345FDD /* PKStroke + Codable.swift */,
+			);
+			path = "DataStructure & Data stoage";
+			sourceTree = "<group>";
+		};
 		938236F32AAD80820080093C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,7 @@
 			children = (
 				93B9E3232AB0A16300FA1D42 /* Basic */,
 				93B9E3222AB0A12C00FA1D42 /* CustomToolPicker & Undo */,
+				9311AAC82AB59AC300986EDD /* DataStructure & Data stoage */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -194,10 +217,15 @@
 			files = (
 				938237022AAD80820080093C /* ContentView.swift in Sources */,
 				938237122AAD93620080093C /* BasicDemo.swift in Sources */,
+				93D5096E2AB6CCB800345FDD /* StrokeSavingInteractor.swift in Sources */,
 				938237002AAD80820080093C /* PencilKitPracticeApp.swift in Sources */,
 				93B9E3272AB0A22900FA1D42 /* CustomToolPickerViewModel.swift in Sources */,
+				93D5096C2AB6CBC600345FDD /* StrokeSavingDemo.swift in Sources */,
+				93D509722AB6FF1E00345FDD /* PKStroke + Codable.swift in Sources */,
 				93946BE02AADB71200DC301E /* PencilKitCanvas.swift in Sources */,
 				93946BE22AADC76500DC301E /* PKStroke+calculation.swift in Sources */,
+				93D509702AB6CCC200345FDD /* StrokeSavingDemoStore.swift in Sources */,
+				93FC2ADA2AB8AA6000B6C698 /* StrokeStore.swift in Sources */,
 				93B9E3252AB0A17300FA1D42 /* CustomToolPickerDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

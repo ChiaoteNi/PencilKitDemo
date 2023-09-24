@@ -19,6 +19,10 @@ struct ContentView: View {
                 NavigationLink("Custom Tool Picker") {
                     CustomToolPickerDemo()
                 }
+                Spacer()
+                NavigationLink("Stroke Data Model") {
+                    StrokeSavingDemo()
+                }
             }
             .padding(50)
         }
