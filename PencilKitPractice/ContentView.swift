@@ -20,6 +20,10 @@ struct ContentView: View {
                     CustomToolPickerDemo()
                 }
                 Spacer()
+                NavigationLink("CGPath to Stroke") {
+                    PathToStrokesDemo()
+                }
+                Spacer()
                 NavigationLink("Stroke Data Model") {
                     StrokeSavingDemo()
                 }

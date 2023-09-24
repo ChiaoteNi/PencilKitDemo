@@ -20,7 +20,11 @@
 		93D5096E2AB6CCB800345FDD /* StrokeSavingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5096D2AB6CCB800345FDD /* StrokeSavingInteractor.swift */; };
 		93D509702AB6CCC200345FDD /* StrokeSavingDemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5096F2AB6CCC200345FDD /* StrokeSavingDemoStore.swift */; };
 		93D509722AB6FF1E00345FDD /* PKStroke + Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D509712AB6FF1E00345FDD /* PKStroke + Codable.swift */; };
+		93FC2AD42AB8A93B00B6C698 /* PathToStrokesDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AD32AB8A93B00B6C698 /* PathToStrokesDemo.swift */; };
+		93FC2AD62AB8A9C700B6C698 /* PathToStrokesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AD52AB8A9C700B6C698 /* PathToStrokesInteractor.swift */; };
+		93FC2AD82AB8AA0800B6C698 /* PathToStrokesStateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AD72AB8AA0800B6C698 /* PathToStrokesStateStore.swift */; };
 		93FC2ADA2AB8AA6000B6C698 /* StrokeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2AD92AB8AA6000B6C698 /* StrokeStore.swift */; };
+		93FC2ADC2AB8AF9400B6C698 /* CGPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC2ADB2AB8AF9400B6C698 /* CGPathGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +42,11 @@
 		93D5096D2AB6CCB800345FDD /* StrokeSavingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSavingInteractor.swift; sourceTree = "<group>"; };
 		93D5096F2AB6CCC200345FDD /* StrokeSavingDemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeSavingDemoStore.swift; sourceTree = "<group>"; };
 		93D509712AB6FF1E00345FDD /* PKStroke + Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PKStroke + Codable.swift"; sourceTree = "<group>"; };
+		93FC2AD32AB8A93B00B6C698 /* PathToStrokesDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathToStrokesDemo.swift; sourceTree = "<group>"; };
+		93FC2AD52AB8A9C700B6C698 /* PathToStrokesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathToStrokesInteractor.swift; sourceTree = "<group>"; };
+		93FC2AD72AB8AA0800B6C698 /* PathToStrokesStateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathToStrokesStateStore.swift; sourceTree = "<group>"; };
 		93FC2AD92AB8AA6000B6C698 /* StrokeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStore.swift; sourceTree = "<group>"; };
+		93FC2ADB2AB8AF9400B6C698 /* CGPathGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPathGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,7 @@
 				93B9E3232AB0A16300FA1D42 /* Basic */,
 				93B9E3222AB0A12C00FA1D42 /* CustomToolPicker & Undo */,
 				9311AAC82AB59AC300986EDD /* DataStructure & Data stoage */,
+				93FC2AD22AB8A91B00B6C698 /* Path to Strokes */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -143,6 +152,17 @@
 				938237112AAD93620080093C /* BasicDemo.swift */,
 			);
 			path = Basic;
+			sourceTree = "<group>";
+		};
+		93FC2AD22AB8A91B00B6C698 /* Path to Strokes */ = {
+			isa = PBXGroup;
+			children = (
+				93FC2AD32AB8A93B00B6C698 /* PathToStrokesDemo.swift */,
+				93FC2AD52AB8A9C700B6C698 /* PathToStrokesInteractor.swift */,
+				93FC2AD72AB8AA0800B6C698 /* PathToStrokesStateStore.swift */,
+				93FC2ADB2AB8AF9400B6C698 /* CGPathGenerator.swift */,
+			);
+			path = "Path to Strokes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,12 +239,16 @@
 				938237122AAD93620080093C /* BasicDemo.swift in Sources */,
 				93D5096E2AB6CCB800345FDD /* StrokeSavingInteractor.swift in Sources */,
 				938237002AAD80820080093C /* PencilKitPracticeApp.swift in Sources */,
+				93FC2ADC2AB8AF9400B6C698 /* CGPathGenerator.swift in Sources */,
 				93B9E3272AB0A22900FA1D42 /* CustomToolPickerViewModel.swift in Sources */,
+				93FC2AD82AB8AA0800B6C698 /* PathToStrokesStateStore.swift in Sources */,
 				93D5096C2AB6CBC600345FDD /* StrokeSavingDemo.swift in Sources */,
 				93D509722AB6FF1E00345FDD /* PKStroke + Codable.swift in Sources */,
 				93946BE02AADB71200DC301E /* PencilKitCanvas.swift in Sources */,
 				93946BE22AADC76500DC301E /* PKStroke+calculation.swift in Sources */,
 				93D509702AB6CCC200345FDD /* StrokeSavingDemoStore.swift in Sources */,
+				93FC2AD62AB8A9C700B6C698 /* PathToStrokesInteractor.swift in Sources */,
+				93FC2AD42AB8A93B00B6C698 /* PathToStrokesDemo.swift in Sources */,
 				93FC2ADA2AB8AA6000B6C698 /* StrokeStore.swift in Sources */,
 				93B9E3252AB0A17300FA1D42 /* CustomToolPickerDemo.swift in Sources */,
 			);
